@@ -52,7 +52,8 @@ h2 {
 .content {
   background-color: #fff;
   margin: 0;
-  padding: 10px 60px 60px 60px;;
+  padding: 10px 60px 60px 60px;
+  text-align: justify;
   display: flex;
   flex-direction: column;
 }
