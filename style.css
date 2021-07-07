@@ -1,4 +1,4 @@
-.body {
+body {
   background-color: antiquewhite;
   color: #0d1852;
   font-family: 'Roboto', sans-serif;
@@ -6,12 +6,13 @@
 }
 
 h1 {
-  background-color: antiquewhite;
+  background-color: orange;
   color: #000;
   font-family: 'Adrianna Extended', sans-serif, bold;
   font-size: 50px;
   text-align: center;
-  text-shadow: 2.5px 2.1px #1687a7;
+  padding: 5px;
+  text-shadow: 3.5px 3.1px lightgoldenrodyellow;
   word-break: break-all;
 }
 
