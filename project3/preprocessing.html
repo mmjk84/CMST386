@@ -1,78 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Martin Kim - Responsive Design and CSS - Preprocessing</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Travel Photos">
+  <title>Martin Kim - Responsive Design and CSS - Preprocessing</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Travel Photos">
   <meta name="keywords" content="Travel, Photography, World, Images">
   <meta name="author" content="Martin Kim">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="css/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Nunito:wght@200&family=Yomogi&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Nunito:wght@200&family=Yomogi&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-<h1>Project 3</h1>
-<div class="topnav">
-  <a href="https://cmst386-mkim98.azurewebsites.net/index.html">Home</a>
-  <a href="project3.html">Project 3</a>
-  <a class="active" href="preprocessing.html">Preprocessing</a>
+  <h1>Project 3</h1>
+  <div class="topnav">
+    <a href="https://cmst386-mkim98.azurewebsites.net/index.html">Home</a>
+    <a href="project3.html">Project 3</a>
+    <a class="active" href="preprocessing.html">Preprocessing</a>
 
-</div>
-<hr class="solid">
-<h1>Preprocessing</h1>
-<div class="row">
-  <div class="column">
-    <div class="content">
+  </div>
+  <hr class="solid">
+  <h1>Preprocessing</h1>
+  <div class="row">
+    <div class="column">
+      <div class="content">
 
-      <h3>Explain the ways to implement preprocessing (client-side vs. servers-sde)</h3>
-      
-      In web applications, there are two variables the “client” and “server”. The “client” is a web browser, 
-      like Internet Explorer, Google Chrome, Firefox, etc. The “server” is a web application server at a remote 
-      location that will process web requests and send pages to the client. Web applications contain code that’s 
-      processed through client’s browser or web server.  The disadvantage is that web applications have a disconnected 
-      architecture that is never live or having a consistent connection between displayed pages on a browser,
-      web, or database. 
+        <h3>Explain the ways to implement preprocessing (client-side vs. servers-sde)</h3>
 
-Server-side processing happens when a page is being reached providing the requests and when the pages are posted
- back to servers with information of saving/retrieving data, server-side processing, and user validation. A disadvantage
-  of server-side processing is that it can cause decreased performance increasing loading times for users to wait to 
-  process and recreated.it can introduce processing overhead that can decrease performance and force the user to wait
-   for the page to be processed and recreated. 
+        In web applications, there are two variables the “client” and “server”. The “client” is a web browser,
+        like Internet Explorer, Google Chrome, Firefox, etc. The “server” is a web application server at a remote
+        location that will process web requests and send pages to the client. Web applications contain code that’s
+        processed through client’s browser or web server. The disadvantage is that web applications have a disconnected
+        architecture that is never live or having a consistent connection between displayed pages on a browser,
+        web, or database.
 
-Client-Side Code are embedded scripts on a webpage that are processed through the client’s internet browser. Scripts
-are written in differencing languages of code such as JavaScript interacting with website’s HTML elements including
-textboxes, list-boxes, tables, and buttons.  The benefits of solid client-side scripting provide the user with faster
-response times, intuitive interaction with applications, and less overhead from the web server.  The upside of client
-coding is that you can make direct changes to elements without contacting the database. The downside of it all is that
-it requires more time and effort while the browser can support the scripted language.
+        Server-side processing happens when a page is being reached providing the requests and when the pages are posted
+        back to servers with information of saving/retrieving data, server-side processing, and user validation. A
+        disadvantage of server-side processing is that it can cause decreased performance increasing loading times for users to wait
+        to process and recreated.it can introduce processing overhead that can decrease performance and force the user to
+        wait for the page to be processed and recreated.
 
-       
-      <h3>Define and describes the mechanisms used in either LESS or SASS</h3>
-      
-      Mixins define styles that is re-used throughout the stylesheet. Mixins use '@mixin at-rule', which is written “@mixin <name> { ... } or @mixin name(<arguments...>) { ... }”
+        Client-Side Code are embedded scripts on a webpage that are processed through the client’s internet browser.
+        Scripts are written in differencing languages of code such as JavaScript interacting with website’s HTML elements
+        including textboxes, list-boxes, tables, and buttons. The benefits of solid client-side scripting provide the user with
+        faster response times, intuitive interaction with applications, and less overhead from the web server. The upside of
+        client coding is that you can make direct changes to elements without contacting the database. The downside of it all
+        is that it requires more time and effort while the browser can support the scripted language.
 
-        Variables are values that are used infinite amount of times within the stylesheet.  A value that begins with a $ creates a variable allowing to use the same name throughout the stylesheet instead of actual value written in <variable-name> : <expression/value>
-        
-        Function defines complex operations with SassScript values having the ability to re-use throughout your stylesheet.  Functions allow common formulas and behaviors in readable format through abstraction by using @function at-rule, which is written @function <name>(<arguments...>) { ... } but a function’s name can be any Sass Identifier containing universal statements with @return at-rule indicating values as a result of function call.
-        
-        Operators consist of mathematical operations such as +, -, *, /, and %.  Equality check would use == and !=.  Greater or less than between two numbers use <,<=,>, and =.  Words such as and, or, and not have Boolean behavior.  In Sass, every value is considered “true” except for false and null. The +,-, and / are used as concentration strings.
-        
-        Nesting in Sass allows to nest CSS selectors in similar fashion as that of HTML.  You can write a set of style rules inside of another instead of repeating same selectors.  It provides style organization as every set of rules in relation to the sector will be in one place.  It is not favored to implement nesting in deep levels causing harder maintenance.  
-        
-      
-      
 
+        <h3>Define and describes the mechanisms used in either LESS or SASS</h3>
+
+        Mixins define styles that is re-used throughout the stylesheet. Mixins use '@mixin at-rule', which is written
+        "@mixin name' { ... } or '@mixin arguments' { ... }”
+
+        Variables are values that are used infinite amount of times within the stylesheet. A value that begins with a $
+        creates a variable allowing to use the same name throughout the stylesheet instead of actual value written in
+        <variable-name> : <expression /value></expression>
+
+          Function defines complex operations with SassScript values having the ability to re-use throughout your
+          stylesheet. Functions allow common formulas and behaviors in readable format through abstraction by using
+          @function at-rule, which is written @function <name>(<arguments...>) { ... } but a function’s name can be any
+              Sass Identifier containing universal statements with @return at-rule indicating values as a result of
+              function call.
+
+              Operators consist of mathematical operations such as +, -, *, /, and %. Equality check would use == and
+              !=. Greater or less than between two numbers use <,<=,>, and =. Words such as and, or, and not have
+                Boolean behavior. In Sass, every value is considered “true” except for false and null. The +,-, and /
+                are used as concentration strings.
+
+                Nesting in Sass allows to nest CSS selectors in similar fashion as that of HTML. You can write a set of
+                style rules inside of another instead of repeating same selectors. It provides style organization as
+                every set of rules in relation to the sector will be in one place. It is not favored to implement
+                nesting in deep levels causing harder maintenance.
+
+
+
+
+      </div>
     </div>
   </div>
-</div>
 
 
 </body>
-</html>
 
-  
+</html>
