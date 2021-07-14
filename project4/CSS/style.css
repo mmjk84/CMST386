@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  font-family: 'Adrianna Extended', sans-serif;
+  font-size: 35px;
+  letter-spacing: .5em;
+  text-align: center;
+  text-shadow: 2px 2px #afafaf;
+  word-break: break-all;
+}
+
+h2 {
+  color: #000000;
+  font-family: 'Adrianna Extended', serif;
+  text-align: center;
+}
+
+.topnav {
+    display: inline-block;
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+.topnav a {
+  float: left;
+  font-family: 'Lucida handwriting', serif;
+  color: #4c454c;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color: #c0c0c0;
+  color: black;
+  opacity: 60%;
+}
+
+.topnav a.active {
+  background-color: #585858;
+  color: white;
+  opacity: 60%;
+}
+
+.content {
+  margin: 10px;
+  padding: 10px 60px 60px 60px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #000000;
+}
+
+img {
+  text-align: center;
+  }
+
+dt {
+  color:#ff80b3;
+}
+
+ul {
+  list-style: none; 
+}
+
+.footer {
+  font-family: 'Lora', bold, serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.footer a:link, 
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+  color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
